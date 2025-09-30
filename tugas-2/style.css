@@ -1,0 +1,54 @@
+ p,h1,h2,h3,h4,h5{
+    font-family: arial;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin: 50px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+  padding: 20px;
+}
+
+.photo {
+  border-radius: 12px;
+}
+
+.avatar {
+  width: 220px;          /* atau 250px sesuai kebutuhan */
+  height: 220px;         /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover;     /* isi area tanpa distorsi */
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+}
+
+.section-title {
+  padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #22c55e; /* garis aksen di kiri */
+}
+
+.h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+.h3 {
+  color: grey;
+  text-align: center;
+}
+
+#logo {
+  width:50 px;
+}
+
+#hr {
+  color: rgb(185, 185, 185);
+  font-weight: 300;
+  margin: 50px;
+}
+
+.img{
+  border-radius: 12px;
+}
