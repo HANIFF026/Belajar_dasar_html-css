@@ -1,0 +1,16 @@
+h1 {
+    font-family: "Dancing Script", cursive;
+}
+
+body{
+    background-color: #fefefe;
+    padding: 13px;
+    border: 16px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1,8px;
+}
+@font-face{
+    font-family: ;
+    src: url();
+}

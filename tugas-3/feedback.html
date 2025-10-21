@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+</head>
+<body>
+    <main class="container">
+    <h1>fomulir umpan balik</h1>
+     <div class="header">
+        <div class="nav">
+            <a href="index.html">beranda</a>
+            <a href="biodata.html">biodata</a>
+            <a href="jadwal.html">jadwal</a>
+            <a href="galery.html">galery</a>
+            <a href="feedback.html">feedback</a>
+        </div>
+    </div>
+      
+    <hr>
+    <form>
+      <div>
+          <label for="inputName">nama lengkap </label>
+          <input type="text" name="nama_lengkap" id="inputName" />
+        </div>
+        <div>
+          <label for="input_email">email</label>
+          <input type="email" name="email" id="input_email">
+        </div>
+        <div>
+          <label for="input rating kepuasan web">rating kepuasan web(rating 1-10)</label>
+          <input type="rating kepasan web" name="rating kepuasan web" id="rating kepuasan web">
+        </div>
+        <div>
+          <label for="input rekomendasi web ini">rekomendasi web ini</label>
+          <input type="rekomendasi web ini" name="rekomendasi web ini" id="rekomendasi web ini">
+          <input type="checkbox" name="iya,sangat[]" id="iya,sangat">
+          <label for="input iya,sangat">iya sangat</label>
+          <input type="checkbox" name="mungkin saja[]" id="mungkin">
+          <label for="input mungkin saja">mungkin saja</label>
+          <input type="checkbox" name="tidak[]" id="tidak">
+          <label for="input tidak">tidak</label>
+        </div>
+        <div>
+          <label for="topek yg paling menarik">topik paling menarik</label>
+          <input type="topik paling menarik" name="topik paling menarik" id="topik paling menarik">
+          <label type="biodata">biodata</label>
+          <input type="checkbox" name="biodata[]" id="biodata">
+          <label for="jadwal">jadwal</label>
+          <input type="checkbox" name="jadwal[]" id="jadwal">
+          <label for="galery[]">galery</label>
+          <input type="galery" name="galery" id="galery">
+        </div>
+        <div class="grid">
+          <button type="reset">BATALKAN</button>
+          <button type="submit">KIRIMKAN</button>
+        </div>
+    </form>
+</body>
+</html>

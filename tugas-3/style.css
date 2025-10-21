@@ -1,0 +1,119 @@
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+}
+
+
+/* foto agar bulat */
+.avatar{
+    width: 220px;          /* atau 250px sesuai kebutuhan */
+  height: 220px;         /* samakan dengan width untuk bulat sempurna */
+  object-fit: cover;     /* isi area tanpa distorsi */
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+}
+/* agar text menjadi kotak */
+.box{ 
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin: 50px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+  padding: 20px;
+
+}
+/* text agar ketengah */
+h1 {
+    text-align: center; /* membuat teks di tengah */
+    color: blue;        /* contoh warna */
+}
+/* agar tulisan rapi */
+body{
+  font-family: poppins, sans-serif; 
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.8;
+}
+/* agar lebih elegan */
+p{
+  text-align: justify;
+  font-size: 1.05em;
+  margin-bottom: 20px;
+}
+/* utk image */
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #555;
+  box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
+/* agar menjadi ke tengah */
+h2{
+  text-align: center;
+  color: brown;
+}
+.gallery .kotak {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.gallery .kotak img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+.gallery .kotak figcaption {
+  background-color: #ddd;
+  padding: 8px;
+  margin-top: -6px;
+}
+.ktk {
+  background: #fff; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 12px; 
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.h1{
+  text-align: center;
+  padding: 20px;
+}
+#hr{
+  color: rgb(red, green, blue);
+  font-weight: 300;
+  margin: 20px;
+}
+
+.nav {
+  background-color: 1px solid grey;
+  text-align: center;
+  border-top: 3px solid #e5e7eb;
+  margin-top: 20px;
+  border-bottom: 3px solid #e5e7eb;
+  padding: 18px;
+}
+
+.nav a {
+  color: rgb(31, 29, 29);
+  text-decoration: none;
+  border-radius: 22px;
+  background: #ce5a5a;
+  padding: 10px 18px;
+  margin-right: 10px;
+  border: 1px solid #e5e7eb;
+  transition: all ease-in-out 0.3s;
+}
+#logo{
+  text-align: center;
+}
