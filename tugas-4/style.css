@@ -1,16 +1,70 @@
 h1 {
     font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin-top: 13px;
+}
+p{
+    text-align: center;
 }
 
 body{
-    background-color: #fefefe;
-    padding: 13px;
-    border: 16px;
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1,8px;
+    padding: 56PX;  
+    background: #fefefe;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='bevel-circle' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10.414 29l-8 8h33.172l-8-8H10.414zM9 27.586l-8 8V2.414l8 8v17.172zM10.414 9l-8-8h33.172l-8 8H10.414zM29 10.414l8-8v33.172l-8-8V10.414zM11 11h16v16H11V11zm8 14c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zM0 0h38v38H0V0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+
+article {
+    border: 2px solid #fff;
+    border-radius: 12px;
+    text-align: justify;
+    padding: 15px;
+}
+
+blockquote{
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: justify;
+}
+
+header{ 
+    border: 2px solid #fff;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
 @font-face{
-    font-family: ;
-    src: url();
+    font-family: arabic-font;
+    src: url(fonts/Arabic\ Calligraphy.ttf)
+}
+
+.nama {
+    text-align: right;
+    font-family: 'arabic-font'; 
+    font-size: 50px;
+    color: palevioletred;   
+}
+
+.kotak{
+    border: 2px solid black;
+    padding: 25px;
+    width: 320px;
+    margin: 20px;
+    border-radius: 12px;
+
+}
+
+#etter-spacing{
+    letter-spacing: 2px;
+}
+.font-style{
+    font-style: italic;
+}
+
+.note{
+    border: 2px solid #fff;
+    padding: 15px;
+    width: 1200px;
+    border-radius: 12px;
 }
