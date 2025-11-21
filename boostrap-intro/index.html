@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- .container = buat div pake class otomatis -->
+     <!-- color theme : primary,info,succes,warnig,danger -->
+    <div class="container bg-light">
+        <h1 class="text-primary">Hello, world!</h1>
+        <div class="alert alert-warning" role="alert">
+            <!-- set warna teks,warna border & padding -->
+           <strong class="text-danger  border border-danger p-1">Atensi!</strong>terjadi kebakaran di depan olive chicken 
+        </div>
+        <button type="button" class="btn btn-danger">
+            bahaya
+        </button>
+        <button type="button" class="btn btn-outline-success">
+            selamatkan diri anda
+        </button>
+      </div>
+      <hr>
+        <!-- SAMPLE ROW COLUMN -->
+        <!-- jika kolom lebih 12 maka akan turun -->
+        <!--  smple row> col >1 baris-->
+      <div class="row">
+        <div class="col-8 bg-success">box kiri</div>
+        <div class="col-2 bg-info">box tengah</div>
+        <div class="col-2 bg-danger">box kanan</div>
+      </div>
+
+      <!-- end row -->
+      <!-- responsive gallery -->
+      <!-- row>.col-3>4 : 4 kolom lag -->
+      <!--  tips multi select : ctrl +d-->
+      <!-- col-md-3 : 4 lom layar sedang -->
+       <!-- col-sm-6 : 2 kolom layar kecil -->
+      <!-- col-12 : 1 kolom layar sangat kecil -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-12" ><img class="img-thumbnail" src="https://images.unsplash.com/photo-1629130734874-9b4dbd38a4c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1478" alt=""></div>
+        <div class="col-md-3 col-sm-6 col-12" ><img class="img-thumbnail" src="https://images.unsplash.com/photo-1629130734874-9b4dbd38a4c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1478" alt="sunset jakarta"></div>
+        <!-- 2 kolom terakhir:2 kolom sedang 1 kolom kecil -->
+        <div class="col-md-6 col-sm-12 col-12" ><img class="img-thumbnail" src="https://images.unsplash.com/photo-1629130734874-9b4dbd38a4c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1478" alt=""></div>
+        <div class="col-md-6 col-sm-12 col-12" ><img class="img-thumbnail" src="https://images.unsplash.com/photo-1618717941236-e55308b3c6b2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1482" alt=""></div>
+      </div>
+      <h2>text area</h2>
+      <table class="table table-striped ">
+  <thead>
+    <tr>
+      <th scope="col">nor</th>
+      <th scope="col">nama</th>
+      <th scope="col">umur</th>
+      <th scope="col">alamat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>hanif</td>
+      <td>16</td>
+      <td>cawas</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jason</td>
+      <td>56</td>
+      <td>jakarta</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>John</td>
+      <td>36</td>
+      <td>jawa barat</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      
+      
+    
+
+    <!-- <div class="container-fluid bg-primary">
+        <h1>hello dunia</h1>
+        <P>info penerimaan psb HSI boarding school 2025.</P>
+    </div> -->
+    <!-- load boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

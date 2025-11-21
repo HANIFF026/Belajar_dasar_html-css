@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  /* GENERAL */
+  body {
+    transition: background .3s, color .3s;
+  }
+  .rounded-4 { border-radius: 1.4rem; }
+
+  /* GLASS NAVBAR */
+  .glass-nav {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.7);
+  }
+  body.dark .glass-nav {
+    background: rgba(20,20,20,0.6);
+  }
+
+  /* HERO ANIMATIONS */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp .7s ease forwards;
+  }
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* DARK MODE */
+  body.dark {
+    background: #0f0f0f;
+    color: #e5e5e5;
+  }
+  body.dark .card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+  }
+  .dark-bg {
+    background: #f7f7f7;
+  }
+  body.dark .dark-bg {
+    background: #111;
+  }
+</style>
+
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3 border-bottom glass-nav">
+        <div class="container">
+            <a class="navbar-barand fw-bold" href="#">HANIFF<SPAN class="text-primary">Dev</SPAN></a>
+
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto me-3">
+                    <li class="nav-item"><a class="nav-link" href="#home">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about me">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a></li>
+                </ul>
+
+                <!-- dark mode -->
+                 <button class="btn btn-ourline-secondary" id="darkToggle">
+                    🌙
+                 </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="py-5 hero-section text-center">
+        <div class="container py-5">
+          <h1 class="fw-bold display-4 fade-up">HI , IM HANIFF</h1>
+          <p class="lead mb-4 fade-up" style="animation-delay: .2s;">
+            Front-End Developer · UI/UX Enthusiast
+          </p>
+          <a href="#portfolio" class="btn btn-primary px-4 py-2 rounded-pill fade-up"
+          style="animation-delay: .4s;">Lihat Karya</a>
+        </div>
+    </section>
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row alignt-items-center g-4">
+          <div class="col-md-4">
+            <img src="" class="img-fluid rounded-4 shadow-sm" alt=""> 
+          </div>
+          <div class="col-md-8">
+            <h2 class=""
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
